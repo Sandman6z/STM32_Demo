@@ -17,16 +17,17 @@ int main(void)
 	
 	while(1)
 	{
-//		OLED_ShowChar(0,0,2);
-//		OLED_ShowChar(40,0,1);
-		OLED_FloatNumber(48,48,3.25);
-//		OLED_ShowCHinese(0,0,0);		//中
-//		OLED_ShowCHinese(24,0,1);		//景
-//		OLED_ShowCHinese(36,0,2);		//园
-//		OLED_ShowCHinese(54,0,3);		//电
-//		OLED_ShowCHinese(72,32,4);		//子
-//		OLED_ShowCHinese(90,32,5);		//科
-//		OLED_ShowCHinese(108,32,7);		//技
+		/*The first num mean position of this line
+			The 2nd num mean which line, like 0,1,2,3
+		*/
+		OLED_FloatNumber(8,2,3.25);						
+		OLED_ShowCHinese(0,0,0);		//中
+		OLED_ShowCHinese(18,0,1);		//景
+		OLED_ShowCHinese(36,0,2);		//园
+		OLED_ShowCHinese(54,0,3);		//电
+		OLED_ShowCHinese(72,0,4);		//子
+		OLED_ShowCHinese(90,0,5);		//科
+		OLED_ShowCHinese(108,0,6);	//技
 		
 		
 		
