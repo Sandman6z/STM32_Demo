@@ -50,11 +50,11 @@ int main(void)
 //		OLED_P32x32Ch(1*32,2,0);
 //		OLED_P32x32Ch(2*32,2,1);
 //		OLED_P128x48Ch(0,2,0);
-        Status_Bar();
-        OLED_P8x16Str(1*16,2,"MCU");             //WIFI
-        OLED_P8x16Str(1*16,4,"QQ");             //WIFI
-        OLED_P8x16Str(1*16,6,"2019375967");             //WIFI
-		OLED_P16x16Ch(0*16,Choice,44);            //Ñ¡Ôñ
+			Status_Bar();
+			OLED_P8x16Str(1*16,2,"MCU");            
+			OLED_P8x16Str(1*16,4,"QQ");             
+			OLED_P8x16Str(1*16,6,"20212333");             
+			OLED_P16x16Ch(0*16,Choice,44);          //Ñ¡Ôñ
 //	OLED_P16x16Ch(1*16,2,65);                 //À¶
 //	OLED_P16x16Ch(2*16,2,66);                 //ÑÀ
 //
