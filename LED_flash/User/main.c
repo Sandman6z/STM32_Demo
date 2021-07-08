@@ -17,6 +17,5 @@ int main(void)
 
 		GPIO_ResetBits(LED_GPIO_PORT, LED_GPIO_PIN);
 		Delay(1000000);
-
 	}
 }
