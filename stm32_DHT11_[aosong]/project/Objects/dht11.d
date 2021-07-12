@@ -1,0 +1,17 @@
+.\objects\dht11.o: ..\user\DHT11.c
+.\objects\dht11.o: ..\user\DHT11.h
+.\objects\dht11.o: ..\CMSIS\stm32f10x.h
+.\objects\dht11.o: ..\CMSIS\core_cm3.h
+.\objects\dht11.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dht11.o: ..\CMSIS\system_stm32f10x.h
+.\objects\dht11.o: ..\user\stm32f10x_conf.h
+.\objects\dht11.o: ..\STDLIB\inc\stm32f10x_dma.h
+.\objects\dht11.o: ..\CMSIS\stm32f10x.h
+.\objects\dht11.o: ..\STDLIB\inc\stm32f10x_exti.h
+.\objects\dht11.o: ..\STDLIB\inc\stm32f10x_flash.h
+.\objects\dht11.o: ..\STDLIB\inc\stm32f10x_fsmc.h
+.\objects\dht11.o: ..\STDLIB\inc\stm32f10x_gpio.h
+.\objects\dht11.o: ..\STDLIB\inc\stm32f10x_rcc.h
+.\objects\dht11.o: ..\STDLIB\inc\stm32f10x_spi.h
+.\objects\dht11.o: ..\STDLIB\inc\stm32f10x_usart.h
+.\objects\dht11.o: ..\STDLIB\inc\misc.h
