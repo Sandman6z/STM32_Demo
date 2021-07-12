@@ -5,6 +5,7 @@
 #include "stdlib.h"
 #include "stdio.h"
 #include "math.h"
+
 void ShowStars(void);
 void ShowWatch(void);
 void ShowTest(void);
@@ -221,10 +222,7 @@ void demo(void)
 }
 
 
-
-
-//ÐÇ¿Õ¶¯»­
-void ShowStars(void)
+void ShowStars(void)		//ÐÇ¿Õ¶¯»­
 {
 	int i;//j;
 	int count=0;
